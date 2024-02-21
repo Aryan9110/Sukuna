@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-bar>ul{
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+    color: #ffff;
+    font-size: 1.2rem;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-bar>ul>li{
+    margin-right: 50px; 
+    transition: .2s;
+}
+
+.nav-bar>ul>li:hover{
+    color: #fb5607;
+    cursor: pointer;  
+    transform: ease-in-out;
+}
+
+.jjk{
+    margin-top: -45px;
+    width: 150px;
+    object-fit: cover;
+}
+#sukuna{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -999;
+}
+
+.sukuna-txt{
+    display: flex;
+    justify-content: center;
+    margin-top: 45vh;
+    color: #ffff;
+    font-size: 3.5rem;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-style: normal;
+}
+
+.about-sukuna{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;    
+    text-align: center;
+    color: #ffff;
+    font-size: .8rem;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.last-event{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+.play{
+    font-size: 1.5rem;
+    border-radius: 50px;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.about{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #ffff;
+    font-style: normal;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 5px 30px 5px 30px;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.pause{
+    font-size: 1.5rem;
+    border-radius: 50px;
+    color: #ffff;
+    cursor: pointer;
+}

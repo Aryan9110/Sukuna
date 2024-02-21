@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" class="css" />
+    <link rel="icon" href="sukuna-fevicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Sukuna</title>
+  </head>
+
+  <body>
+    <header>
+      <video id="sukuna" src="Sukuna.webm" autoplay muted loop></video>
+      <nav class="nav-bar">
+        <img class="jjk" src="jujutsukaisen.png" />
+        <ul>
+          <li>Poster</li>
+          <li>wallpaper</li>
+          <li>Animation</li>
+          <li>Others</li>
+        </ul>
+      </nav>
+      <div>
+        <h1 class="sukuna-txt">RYOMEN SUKUNA</h1>
+        <p class="about-sukuna">
+          Ryomen Sukuna is a fictional character and one of the main antagonists
+          in the manga and anime series Jujutsu Kaisen.<br />
+          He is a Heian Era sorcerer and was once known as the "King of Curses".
+        </p>
+      </div>
+      <div class="last-event">
+        <p class="play" onclick="playVid()" type="button"><i class="bi bi-play-fill"></i></p>
+        <a href="#" class="about">About</a>
+        <p class="pause" onclick="pauseVid()" type="button"><i class="bi bi-pause-fill"></i></p>
+      </div>
+    </header>
+    <script>
+      let vid = document.getElementById("sukuna");
+
+      function playVid() {
+        vid.play();
+      }
+
+      function pauseVid() {
+        vid.pause();
+      }
+    </script>
+  </body>
+</html>
